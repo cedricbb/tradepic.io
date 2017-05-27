@@ -1,0 +1,39 @@
+.chatColumn, .chatLine, .avatarLeft {
+ padding-left: 0;
+}
+
+.chat {
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chatMenu, .avatar, .chatLineLeft {
+    padding-right: 0;
+}
+
+.bob, .alice, .eve {
+    width: 80px;
+    height: 80px;
+    background: url('../img/male.png');
+    background-size: cover;
+}
+
+.alice {
+    background: url('../img/female.png');
+    background-size: cover;
+}
+.eve {
+    background: url('../img/female1.png');
+    background-size: cover;
+}
+
+.chatLine .well {
+    margin-top: 10px;
+    margin-right: 115px;
+} 
+
+.chatLineLeft .well {
+    margin-top: 10px;
+    margin-left: 115px;
+} 
