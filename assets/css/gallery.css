@@ -1,0 +1,33 @@
+.userProgress {
+    width: 600px;
+    margin-top: 20px;
+}
+
+.userProgress .progress {
+    height: 30px;
+}
+
+.number {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.bob {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url('../img/male.png');
+    background-size: cover;
+}
+
+.captionImg .col-xs-4 {
+    padding: 0 6px;
+}
+
+.thumbnail h1 {
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0;
+}
