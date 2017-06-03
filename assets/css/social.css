@@ -15,7 +15,7 @@
 }
 
 .bob {
-    display: block;
+    display: inline-block;
     width: 80px;
     height: 80px;
     background: url('../img/male.png');
@@ -30,4 +30,33 @@
     font-size: 15px;
     margin: 10px 0;
     padding: 0;
+}
+
+.userControl {
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+.userControl a, .userControl span {
+    margin-bottom: 10px!important;
+}
+
+.firstMedia {
+    display: inline-block;
+    height: 150px;
+    width: 150PX;
+    background-image: url('../img/galleries/01/01.jpg');
+    background-size: cover;
+}
+
+.secondMedia {
+    display: inline-block;
+    height: 150px;
+    width: 150PX;
+    background-image: url('../img/galleries/01/02.jpg');
+    background-size: cover;
+}
+
+.popover {
+    max-width: 100%;
 }

@@ -8,6 +8,9 @@
 
         <!--Bootstrap-->
         <link rel="stylesheet" type="text/css" href="vendor/bootstrap/dist/css/bootstrap.css"/>
+        <!--Material Design for Bootstrap-->
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap-material-design/dist/css/ripples.min.css"/>
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap-material-design/dist/css/material-wfont.min.css"/>
         <!--Personalized CSS-->
         <link rel="stylesheet" type="text/css" href="assets/css/gallery.css"/>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -73,5 +76,13 @@
         <script type="text/javascript" src="vendor/jquery/dist/jquery.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+        <!--Material Design scripts-->
+        <script type="text/javascript" src="vendor/bootstrap-material-design/dist/js/ripples.min.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap-material-design/dist/js/material.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $.material.init();
+            });
+        </script> 
     </body>
 </html>
